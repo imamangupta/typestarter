@@ -1,0 +1,104 @@
+.header-inner {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.logo_keyboard {
+    font-size: 40px;
+    color: #0dffff;
+}
+
+.logo_keyboard:hover{
+    text-shadow: 0px 0px 8px;
+    transition: 500ms;
+}
+
+.header_link {
+    display: flex;
+    padding-right: 25px;
+}
+.logo img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.h_link {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+    justify-content: center;
+}
+
+.h_link_active{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+    justify-content: center;
+    border-bottom: 1px solid;
+}
+.h_link::before{
+    content: "";
+    width: 0px;
+    background: white;
+    position: absolute;
+    height: 1px;
+    top: 99%;
+}
+
+.h_link:hover::before{
+    width: 70px;
+    transition: 500ms;
+}
+
+.h_link span {
+    color: #0dffff;
+    text-shadow: 0px 0px 1px;
+    transition: 300ms;
+}
+
+.h_link:hover span {
+    text-shadow: 0px 0px 8px;
+    transition: 500ms;
+}
+
+.btn_login {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.btn_setup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+}
+
+.cls-1 {
+    fill: #00000017;
+    stroke-width: 1px;
+    stroke-dashoffset: 20;
+    stroke: #2ce4ff;
+    stroke-dasharray: 11, 42;
+    z-index: 22;
+    margin-right: -80px;
+    transition: 500ms;
+}
+.cls-1:hover{
+    stroke-dashoffset: 60;
+    transition: 800ms;
+}
