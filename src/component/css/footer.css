@@ -1,0 +1,13 @@
+.footer_sec{
+    border-top: 1px solid #4a4a4a;
+    margin-top: 25px;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.footer_copyright{
+    padding: 14px;
+    border-top: 1px solid #4a4a4a;
+}

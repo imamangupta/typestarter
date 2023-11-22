@@ -1,11 +1,46 @@
 import React from 'react'
+import '../component/css/footer.css'
 
 export default function Footer() {
   return (
-    <section>
-        <div>
-            Footer
+    <>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <section className='footer_sec'>
+        <div className='footer_inner'>
+          <div>
+            link 1
+          </div>
+          <div>
+            link 1
+          </div>
+          <div>
+            link 1
+          </div>
+          <div>
+            link 1
+          </div>
         </div>
-    </section>
+        <div className='footer_copyright'>
+          COPYRIGHT © 2023 - ALL RIGHTS RESERVED BY TYPESTARTER.COM
+        </div>
+      </section>
+    </>
   )
 }
