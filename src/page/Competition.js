@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
 import Navbar from '../component/Navbar';
+import Footer from '../component/Footer';
 
 export default function Competition(props) {
   return (
@@ -28,6 +29,7 @@ export default function Competition(props) {
         <br />
         <br />
       </div>
+      <Footer/>
     </>
   )
 }

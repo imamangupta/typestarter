@@ -2,6 +2,7 @@ import React from 'react'
 import '../component/css/login.css'
 import { Helmet } from "react-helmet";
 import Navbar from '../component/Navbar';
+import Footer from '../component/Footer';
 
 
 export default function Login(props) {
@@ -31,7 +32,7 @@ export default function Login(props) {
                 <br />
                 <br />
             </div>
-
+            <Footer/>
 
 
         </>

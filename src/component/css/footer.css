@@ -1,13 +1,57 @@
 .footer_sec{
-    border-top: 1px solid #4a4a4a;
+    
     margin-top: 25px;
 }
 .footer_inner{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    border-top: 1px solid #4a4a4a;
 }
 .footer_copyright{
-    padding: 14px;
+    padding: 20px;
     border-top: 1px solid #4a4a4a;
+    /* background: #1c1a1a; */
+}
+.f_l_l{
+    color: #0cfefe;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0px 20px;
+    transition: 300ms;
+}
+.f_l_l:hover{
+    color: white;
+    transition: 300ms;
+}
+.newletter_btn{
+    border: 1px solid #0dffff;
+    width: 51%;
+    margin-bottom: 20px;
+}
+.newletter_btn input{
+    padding: 11px;
+    background: transparent;
+    border-right: 1px solid #0dffff;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    color: #b3aeae;
+    /* border: none; */
+    border-bottom: 0px;
+}
+.newletter_btn button{
+    padding: 14px;
+    background: transparent;
+    border: 1px solid whtie;
+    /* border: 2px solid #0dffff; */
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 200ms;
+
+}
+.newletter_btn button:hover{
+    color: #0cfefe;
+    transition: 200ms;
 }

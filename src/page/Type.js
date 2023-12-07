@@ -3,6 +3,24 @@ import { Helmet } from "react-helmet";
 import Navbar from '../component/Navbar';
 
 export default function Type(props) {
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
   return (
     <>
       <Navbar setProgress={props.setProgress} />
@@ -11,23 +29,21 @@ export default function Type(props) {
         <title>TypeStarter | Type</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-
       <div>
         <br />
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <div>
-          Type
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
+
+      <section>
+        <div>
+          controler
+        </div>
+        <div>
+          type here...
+        </div>
+      </section>
 
 
     </>
