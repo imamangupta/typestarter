@@ -1,0 +1,106 @@
+.tyc_controler{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tyc_con{
+    display: flex;
+    background: #2a2a2a;
+    margin: 20px;
+    border-radius: 7px;
+    align-items: center;
+}
+.tyc_divider{
+    height: 60%;
+    width: 2px;
+    background: #606060;
+    border-radius: 2px;
+}
+
+.tyc_default:hover{
+    color: #818181;
+    transition: 300ms;
+}
+.tyc_menu{
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.tyc_menu:hover{
+    color: #818181;
+    transition: 300ms;
+}
+.tyc_menu_sec{
+    padding: 7px 20px;
+}
+.tyc_typer_cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tyc_typer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.tyc_typer div{
+    padding: 5px;
+}
+
+.s_active{
+    width: 2px;
+    background-color: white;
+    border-radius: 5px;
+    animation: typeblink 2s linear infinite;
+}
+@keyframes typeblink {
+    0%{
+        background-color: #0dffff;
+    }50%{
+        background-color: #0dffff00;
+    }100%{
+        background-color: #0dffff;
+    }
+    
+}
+
+.tyc_typer .w_active{
+    padding: 5px 0px;
+}
+
+.tyc_reload{
+    text-align: center;
+    margin-top: 40px;
+}
+.tyc_reload span{
+    font-size: 30px;
+    color: #0dffff;
+    cursor: pointer;
+}
+.tyc_reload span:hover{
+    color: white;
+    transition: 300ms;
+}
+
+.tyc_result{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid;
+    padding: 5px 15px;
+}
+.tyc_res_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+.tyc_result_more{
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}

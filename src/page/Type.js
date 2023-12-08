@@ -1,24 +1,9 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
 import Navbar from '../component/Navbar';
+import TypeControler from '../component/TypeControler';
 
 export default function Type(props) {
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
 
 
   return (
@@ -29,6 +14,7 @@ export default function Type(props) {
         <title>TypeStarter | Type</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
+
       <div>
         <br />
         <br />
@@ -36,16 +22,7 @@ export default function Type(props) {
         <br />
       </div>
 
-      <section>
-        <div>
-          controler
-        </div>
-        <div>
-          type here...
-        </div>
-      </section>
-
-
+     <TypeControler/>
     </>
   )
 }
